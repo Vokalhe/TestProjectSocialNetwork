@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2881E3F88CA86DAD1970D7FD /* libPods-EVASocialNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFB72E480974458AA4FC41F /* libPods-EVASocialNetwork.a */; };
+		841A9E7B1EEDF59C00559335 /* EVAMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A9E7A1EEDF59B00559335 /* EVAMessagesViewController.m */; };
+		841A9E7E1EEDFFD400559335 /* EVAMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A9E7D1EEDFFD400559335 /* EVAMessageTableViewCell.m */; };
+		844087F51EE7461B001C845E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844087F41EE7461B001C845E /* main.m */; };
+		844087F81EE7461B001C845E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844087F71EE7461B001C845E /* AppDelegate.m */; };
+		844087FB1EE7461B001C845E /* EVAChannelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844087FA1EE7461B001C845E /* EVAChannelsViewController.m */; };
+		844087FE1EE7461B001C845E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844087FC1EE7461B001C845E /* Main.storyboard */; };
+		844088001EE7461B001C845E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844087FF1EE7461B001C845E /* Assets.xcassets */; };
+		844088031EE7461B001C845E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844088011EE7461B001C845E /* LaunchScreen.storyboard */; };
+		8440880D1EE75357001C845E /* EVAServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440880C1EE75357001C845E /* EVAServerManager.m */; };
+		844088111EE75C65001C845E /* EVADialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 844088101EE75C65001C845E /* EVADialog.m */; };
+		844088141EE76038001C845E /* EVAMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 844088131EE76038001C845E /* EVAMessage.m */; };
+		84CA53401EE889FC007DE3CF /* EVAChooseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CA533F1EE889FC007DE3CF /* EVAChooseTableViewCell.m */; };
+		84CA53431EE88A20007DE3CF /* EVAChannelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CA53421EE88A20007DE3CF /* EVAChannelTableViewCell.m */; };
+		84EC8BE41EEB1A0200ABD189 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BD21EEB1A0200ABD189 /* back.png */; };
+		84EC8BE51EEB1A0300ABD189 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BD31EEB1A0200ABD189 /* back@2x.png */; };
+		84EC8BE61EEB1A0300ABD189 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BD41EEB1A0200ABD189 /* back@3x.png */; };
+		84EC8BE71EEB1A0300ABD189 /* cummunity.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BD51EEB1A0200ABD189 /* cummunity.png */; };
+		84EC8BE81EEB1A0300ABD189 /* cummunity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BD61EEB1A0200ABD189 /* cummunity@2x.png */; };
+		84EC8BE91EEB1A0300ABD189 /* cummunity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BD71EEB1A0200ABD189 /* cummunity@3x.png */; };
+		84EC8BEA1EEB1A0300ABD189 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BD81EEB1A0200ABD189 /* help.png */; };
+		84EC8BEB1EEB1A0300ABD189 /* help@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BD91EEB1A0200ABD189 /* help@2x.png */; };
+		84EC8BEC1EEB1A0300ABD189 /* help@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BDA1EEB1A0200ABD189 /* help@3x.png */; };
+		84EC8BED1EEB1A0300ABD189 /* kurses.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BDB1EEB1A0200ABD189 /* kurses.png */; };
+		84EC8BEE1EEB1A0300ABD189 /* kurses@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BDC1EEB1A0200ABD189 /* kurses@2x.png */; };
+		84EC8BEF1EEB1A0300ABD189 /* kurses@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BDD1EEB1A0200ABD189 /* kurses@3x.png */; };
+		84EC8BF01EEB1A0300ABD189 /* newChat.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BDE1EEB1A0200ABD189 /* newChat.png */; };
+		84EC8BF11EEB1A0300ABD189 /* newChat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BDF1EEB1A0200ABD189 /* newChat@2x.png */; };
+		84EC8BF21EEB1A0300ABD189 /* newChat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BE01EEB1A0200ABD189 /* newChat@3x.png */; };
+		84EC8BF31EEB1A0300ABD189 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BE11EEB1A0200ABD189 /* profile.png */; };
+		84EC8BF41EEB1A0300ABD189 /* profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BE21EEB1A0200ABD189 /* profile@2x.png */; };
+		84EC8BF51EEB1A0300ABD189 /* profile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC8BE31EEB1A0200ABD189 /* profile@3x.png */; };
+		84EEFF261EEEBFB0003AD876 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EEFF251EEEBFB0003AD876 /* camera.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		841A9E791EEDF59B00559335 /* EVAMessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAMessagesViewController.h; sourceTree = "<group>"; };
+		841A9E7A1EEDF59B00559335 /* EVAMessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAMessagesViewController.m; sourceTree = "<group>"; };
+		841A9E7C1EEDFFD400559335 /* EVAMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAMessageTableViewCell.h; sourceTree = "<group>"; };
+		841A9E7D1EEDFFD400559335 /* EVAMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAMessageTableViewCell.m; sourceTree = "<group>"; };
+		844087F01EE7461A001C845E /* EVASocialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVASocialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844087F41EE7461B001C845E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844087F61EE7461B001C845E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		844087F71EE7461B001C845E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		844087F91EE7461B001C845E /* EVAChannelsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAChannelsViewController.h; sourceTree = "<group>"; };
+		844087FA1EE7461B001C845E /* EVAChannelsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAChannelsViewController.m; sourceTree = "<group>"; };
+		844087FD1EE7461B001C845E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844087FF1EE7461B001C845E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844088021EE7461B001C845E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844088041EE7461B001C845E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8440880B1EE75357001C845E /* EVAServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAServerManager.h; sourceTree = "<group>"; };
+		8440880C1EE75357001C845E /* EVAServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAServerManager.m; sourceTree = "<group>"; };
+		8440880F1EE75C65001C845E /* EVADialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVADialog.h; sourceTree = "<group>"; };
+		844088101EE75C65001C845E /* EVADialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVADialog.m; sourceTree = "<group>"; };
+		844088121EE76038001C845E /* EVAMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAMessage.h; sourceTree = "<group>"; };
+		844088131EE76038001C845E /* EVAMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAMessage.m; sourceTree = "<group>"; };
+		84CA533E1EE889FC007DE3CF /* EVAChooseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAChooseTableViewCell.h; sourceTree = "<group>"; };
+		84CA533F1EE889FC007DE3CF /* EVAChooseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAChooseTableViewCell.m; sourceTree = "<group>"; };
+		84CA53411EE88A20007DE3CF /* EVAChannelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAChannelTableViewCell.h; sourceTree = "<group>"; };
+		84CA53421EE88A20007DE3CF /* EVAChannelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAChannelTableViewCell.m; sourceTree = "<group>"; };
+		84EC8BD21EEB1A0200ABD189 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = images/back.png; sourceTree = "<group>"; };
+		84EC8BD31EEB1A0200ABD189 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back@2x.png"; path = "images/back@2x.png"; sourceTree = "<group>"; };
+		84EC8BD41EEB1A0200ABD189 /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back@3x.png"; path = "images/back@3x.png"; sourceTree = "<group>"; };
+		84EC8BD51EEB1A0200ABD189 /* cummunity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cummunity.png; path = images/cummunity.png; sourceTree = "<group>"; };
+		84EC8BD61EEB1A0200ABD189 /* cummunity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cummunity@2x.png"; path = "images/cummunity@2x.png"; sourceTree = "<group>"; };
+		84EC8BD71EEB1A0200ABD189 /* cummunity@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cummunity@3x.png"; path = "images/cummunity@3x.png"; sourceTree = "<group>"; };
+		84EC8BD81EEB1A0200ABD189 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = images/help.png; sourceTree = "<group>"; };
+		84EC8BD91EEB1A0200ABD189 /* help@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "help@2x.png"; path = "images/help@2x.png"; sourceTree = "<group>"; };
+		84EC8BDA1EEB1A0200ABD189 /* help@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "help@3x.png"; path = "images/help@3x.png"; sourceTree = "<group>"; };
+		84EC8BDB1EEB1A0200ABD189 /* kurses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kurses.png; path = images/kurses.png; sourceTree = "<group>"; };
+		84EC8BDC1EEB1A0200ABD189 /* kurses@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kurses@2x.png"; path = "images/kurses@2x.png"; sourceTree = "<group>"; };
+		84EC8BDD1EEB1A0200ABD189 /* kurses@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kurses@3x.png"; path = "images/kurses@3x.png"; sourceTree = "<group>"; };
+		84EC8BDE1EEB1A0200ABD189 /* newChat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newChat.png; path = images/newChat.png; sourceTree = "<group>"; };
+		84EC8BDF1EEB1A0200ABD189 /* newChat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newChat@2x.png"; path = "images/newChat@2x.png"; sourceTree = "<group>"; };
+		84EC8BE01EEB1A0200ABD189 /* newChat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newChat@3x.png"; path = "images/newChat@3x.png"; sourceTree = "<group>"; };
+		84EC8BE11EEB1A0200ABD189 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = images/profile.png; sourceTree = "<group>"; };
+		84EC8BE21EEB1A0200ABD189 /* profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile@2x.png"; path = "images/profile@2x.png"; sourceTree = "<group>"; };
+		84EC8BE31EEB1A0200ABD189 /* profile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile@3x.png"; path = "images/profile@3x.png"; sourceTree = "<group>"; };
+		84EEFF251EEEBFB0003AD876 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera.png; path = images/camera.png; sourceTree = "<group>"; };
+		BE761FEE2A7175DC653E5986 /* Pods-EVASocialNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVASocialNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-EVASocialNetwork/Pods-EVASocialNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		D961E46EFE5478E0FD3E8AFC /* Pods-EVASocialNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVASocialNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EVASocialNetwork/Pods-EVASocialNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		DDFB72E480974458AA4FC41F /* libPods-EVASocialNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EVASocialNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844087ED1EE74619001C845E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2881E3F88CA86DAD1970D7FD /* libPods-EVASocialNetwork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41009EF343409358C9B3B840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB72E480974458AA4FC41F /* libPods-EVASocialNetwork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D1CAA9590E7834A4B101751 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D961E46EFE5478E0FD3E8AFC /* Pods-EVASocialNetwork.debug.xcconfig */,
+				BE761FEE2A7175DC653E5986 /* Pods-EVASocialNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		844087E71EE74619001C845E = {
+			isa = PBXGroup;
+			children = (
+				844087F21EE7461A001C845E /* EVASocialNetwork */,
+				844087F11EE7461A001C845E /* Products */,
+				4D1CAA9590E7834A4B101751 /* Pods */,
+				41009EF343409358C9B3B840 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		844087F11EE7461A001C845E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844087F01EE7461A001C845E /* EVASocialNetwork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844087F21EE7461A001C845E /* EVASocialNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				84EC8BD11EEB19E800ABD189 /* images */,
+				84CA533D1EE8896F007DE3CF /* Cells */,
+				8440880E1EE75C1E001C845E /* Models */,
+				8440880A1EE75314001C845E /* API */,
+				844087F61EE7461B001C845E /* AppDelegate.h */,
+				844087F71EE7461B001C845E /* AppDelegate.m */,
+				844087F91EE7461B001C845E /* EVAChannelsViewController.h */,
+				844087FA1EE7461B001C845E /* EVAChannelsViewController.m */,
+				841A9E791EEDF59B00559335 /* EVAMessagesViewController.h */,
+				841A9E7A1EEDF59B00559335 /* EVAMessagesViewController.m */,
+				844087FC1EE7461B001C845E /* Main.storyboard */,
+				844087FF1EE7461B001C845E /* Assets.xcassets */,
+				844088011EE7461B001C845E /* LaunchScreen.storyboard */,
+				844088041EE7461B001C845E /* Info.plist */,
+				844087F31EE7461A001C845E /* Supporting Files */,
+			);
+			path = EVASocialNetwork;
+			sourceTree = "<group>";
+		};
+		844087F31EE7461A001C845E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844087F41EE7461B001C845E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8440880A1EE75314001C845E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8440880B1EE75357001C845E /* EVAServerManager.h */,
+				8440880C1EE75357001C845E /* EVAServerManager.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		8440880E1EE75C1E001C845E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8440880F1EE75C65001C845E /* EVADialog.h */,
+				844088101EE75C65001C845E /* EVADialog.m */,
+				844088121EE76038001C845E /* EVAMessage.h */,
+				844088131EE76038001C845E /* EVAMessage.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		84CA533D1EE8896F007DE3CF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84CA533E1EE889FC007DE3CF /* EVAChooseTableViewCell.h */,
+				84CA533F1EE889FC007DE3CF /* EVAChooseTableViewCell.m */,
+				84CA53411EE88A20007DE3CF /* EVAChannelTableViewCell.h */,
+				84CA53421EE88A20007DE3CF /* EVAChannelTableViewCell.m */,
+				841A9E7C1EEDFFD400559335 /* EVAMessageTableViewCell.h */,
+				841A9E7D1EEDFFD400559335 /* EVAMessageTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		84EC8BD11EEB19E800ABD189 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84EEFF251EEEBFB0003AD876 /* camera.png */,
+				84EC8BD21EEB1A0200ABD189 /* back.png */,
+				84EC8BD31EEB1A0200ABD189 /* back@2x.png */,
+				84EC8BD41EEB1A0200ABD189 /* back@3x.png */,
+				84EC8BD51EEB1A0200ABD189 /* cummunity.png */,
+				84EC8BD61EEB1A0200ABD189 /* cummunity@2x.png */,
+				84EC8BD71EEB1A0200ABD189 /* cummunity@3x.png */,
+				84EC8BD81EEB1A0200ABD189 /* help.png */,
+				84EC8BD91EEB1A0200ABD189 /* help@2x.png */,
+				84EC8BDA1EEB1A0200ABD189 /* help@3x.png */,
+				84EC8BDB1EEB1A0200ABD189 /* kurses.png */,
+				84EC8BDC1EEB1A0200ABD189 /* kurses@2x.png */,
+				84EC8BDD1EEB1A0200ABD189 /* kurses@3x.png */,
+				84EC8BDE1EEB1A0200ABD189 /* newChat.png */,
+				84EC8BDF1EEB1A0200ABD189 /* newChat@2x.png */,
+				84EC8BE01EEB1A0200ABD189 /* newChat@3x.png */,
+				84EC8BE11EEB1A0200ABD189 /* profile.png */,
+				84EC8BE21EEB1A0200ABD189 /* profile@2x.png */,
+				84EC8BE31EEB1A0200ABD189 /* profile@3x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844087EF1EE74619001C845E /* EVASocialNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844088071EE7461B001C845E /* Build configuration list for PBXNativeTarget "EVASocialNetwork" */;
+			buildPhases = (
+				272926225EEC03D1DA921717 /* [CP] Check Pods Manifest.lock */,
+				844087EC1EE74619001C845E /* Sources */,
+				844087ED1EE74619001C845E /* Frameworks */,
+				844087EE1EE74619001C845E /* Resources */,
+				378A8BA775C4B200BA9A2203 /* [CP] Embed Pods Frameworks */,
+				78E6FC1E7A9E2594A08BF6AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVASocialNetwork;
+			productName = EVASocialNetwork;
+			productReference = 844087F01EE7461A001C845E /* EVASocialNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844087E81EE74619001C845E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ehlakov Victor";
+				TargetAttributes = {
+					844087EF1EE74619001C845E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 844087EB1EE74619001C845E /* Build configuration list for PBXProject "EVASocialNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844087E71EE74619001C845E;
+			productRefGroup = 844087F11EE7461A001C845E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844087EF1EE74619001C845E /* EVASocialNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844087EE1EE74619001C845E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EEFF261EEEBFB0003AD876 /* camera.png in Resources */,
+				84EC8BE91EEB1A0300ABD189 /* cummunity@3x.png in Resources */,
+				84EC8BE81EEB1A0300ABD189 /* cummunity@2x.png in Resources */,
+				84EC8BEC1EEB1A0300ABD189 /* help@3x.png in Resources */,
+				84EC8BF51EEB1A0300ABD189 /* profile@3x.png in Resources */,
+				84EC8BE41EEB1A0200ABD189 /* back.png in Resources */,
+				84EC8BF41EEB1A0300ABD189 /* profile@2x.png in Resources */,
+				844088031EE7461B001C845E /* LaunchScreen.storyboard in Resources */,
+				84EC8BE61EEB1A0300ABD189 /* back@3x.png in Resources */,
+				84EC8BE51EEB1A0300ABD189 /* back@2x.png in Resources */,
+				84EC8BED1EEB1A0300ABD189 /* kurses.png in Resources */,
+				84EC8BF01EEB1A0300ABD189 /* newChat.png in Resources */,
+				84EC8BEA1EEB1A0300ABD189 /* help.png in Resources */,
+				84EC8BE71EEB1A0300ABD189 /* cummunity.png in Resources */,
+				84EC8BF31EEB1A0300ABD189 /* profile.png in Resources */,
+				844088001EE7461B001C845E /* Assets.xcassets in Resources */,
+				84EC8BF21EEB1A0300ABD189 /* newChat@3x.png in Resources */,
+				84EC8BEE1EEB1A0300ABD189 /* kurses@2x.png in Resources */,
+				844087FE1EE7461B001C845E /* Main.storyboard in Resources */,
+				84EC8BEF1EEB1A0300ABD189 /* kurses@3x.png in Resources */,
+				84EC8BEB1EEB1A0300ABD189 /* help@2x.png in Resources */,
+				84EC8BF11EEB1A0300ABD189 /* newChat@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		272926225EEC03D1DA921717 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		378A8BA775C4B200BA9A2203 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EVASocialNetwork/Pods-EVASocialNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78E6FC1E7A9E2594A08BF6AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EVASocialNetwork/Pods-EVASocialNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844087EC1EE74619001C845E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844087FB1EE7461B001C845E /* EVAChannelsViewController.m in Sources */,
+				844087F81EE7461B001C845E /* AppDelegate.m in Sources */,
+				841A9E7E1EEDFFD400559335 /* EVAMessageTableViewCell.m in Sources */,
+				844088141EE76038001C845E /* EVAMessage.m in Sources */,
+				84CA53401EE889FC007DE3CF /* EVAChooseTableViewCell.m in Sources */,
+				84CA53431EE88A20007DE3CF /* EVAChannelTableViewCell.m in Sources */,
+				844087F51EE7461B001C845E /* main.m in Sources */,
+				844088111EE75C65001C845E /* EVADialog.m in Sources */,
+				8440880D1EE75357001C845E /* EVAServerManager.m in Sources */,
+				841A9E7B1EEDF59C00559335 /* EVAMessagesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		844087FC1EE7461B001C845E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844087FD1EE7461B001C845E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844088011EE7461B001C845E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844088021EE7461B001C845E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844088051EE7461B001C845E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844088061EE7461B001C845E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844088081EE7461B001C845E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D961E46EFE5478E0FD3E8AFC /* Pods-EVASocialNetwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EVASocialNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.EVASocialNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		844088091EE7461B001C845E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE761FEE2A7175DC653E5986 /* Pods-EVASocialNetwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EVASocialNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.EVASocialNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844087EB1EE74619001C845E /* Build configuration list for PBXProject "EVASocialNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844088051EE7461B001C845E /* Debug */,
+				844088061EE7461B001C845E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844088071EE7461B001C845E /* Build configuration list for PBXNativeTarget "EVASocialNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844088081EE7461B001C845E /* Debug */,
+				844088091EE7461B001C845E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844087E81EE74619001C845E /* Project object */;
+}
